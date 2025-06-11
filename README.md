@@ -23,7 +23,7 @@ mafft
 
 #### Required External Resource Files and Initial Setup
 
-Reference Genomes (it is imperative that these are uncompressed when running `genomic_mutation_rate.py` as our extensive benchmarking showed that the script runs extremely fast using the uncompressed files and the compressed version is much slower for processing times). In the example below, comparisons are made between hg38 and panTro6. However, any two genomes can be used if the reference genomes exist, a liftOver chain file exists, and the divergence time is known.
+Reference Genomes (it is imperative that these are uncompressed when running `genomic_mutation_rate.py` as our extensive benchmarking showed that the script runs extremely fast using the uncompressed files and the compressed version is much slower for processing times). In the example below, comparisons are made between hg38 and panTro6. However, any two genomes can be used if the reference genomes exist, a liftOver chain file exists, and the divergence time is known. If you are unsure of the divergence time between species, you can check for it at [https://timetree.org/](https://timetree.org/).
 ```
 wget https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
 wget https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/bigZips/panTro6.fa.gz
