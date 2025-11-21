@@ -7,7 +7,8 @@
 
 The goal of this tool is to find "diamonds in the rough" in the genome. It is used to identify regions of the genome with an excess of *de novo* variants. There are two parts of the tool. The first is a script (`genomic_mutation_rate.py`) to generate mutation rates to use as priors for assessing *de novo* variants. This tool calculates mutation rates directly, by comparing between two genomes with known divergence times. It can optionally provide a weighted mutation rate that integrates other features (i.e., CADD scores). The second is a script (`diamonds.R`) to generate p-values for *de novo* variants in a given set of regions in the genome.
 
-> [!NOTE] If you use DiamondsDenovo in your work, please cite our paper
+> [!NOTE]
+> If you use DiamondsDenovo in your work, please cite our paper:
 > Wang Y, Sams EI, Slaugh R, Crocker S, Hurtado EC, Tracy S, Hou YC, Markovic C, Valle K, Tate V, Belhassan K, Appelbaum E, Akinwe T, Starosta RT, Cao Y, Neilson A, Liu Y, Jensen N, Ghasemi R, Lindsay T, Manuel J, Couteranis S, Kremitzki M, Ustanik J, Antonacci T, Ng JK, Emory A, Metz L, DeLuca T, Lyons KN, Sinnwell T, Thomeczek B, Wang K, Sisneros N, Muraleedharan M, Kethireddy A, Corbo M, Gowda H, King KA, Gurnett CA, Dutcher SK, Gooch C, Li YE, Mitchell MW, Peterson KA, Horani A, Rosenfeld JA, Bi W, Stankiewicz P, Chao HT, Posey JE, Grochowski CM, Dardas Z, Puffenberger EG, Pearson CE, Kooy F, Annear D, Innes AM, Heinz M, Head R, Fulton R, Toutain S; 9P-ARCH; Antonacci-Fulton L, Cui X, Mitra RD, Cole FS, Neidich J, Dickson PI, Milbrandt J, Turner TN. Whole-genome sequencing reveals individual and cohort level insights into chromosome 9p syndromes. Genome Med. 2025 Oct 24;17(1):129. doi: 10.1186/s13073-025-01563-0. PMID: 41137173; PMCID: PMC12551315.
 
 #### Install of Required Python packages for `genomic_mutation_rate.py`
