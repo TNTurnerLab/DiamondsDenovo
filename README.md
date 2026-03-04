@@ -1,6 +1,6 @@
 # DiamondsDenovo
 
-#### Laboratory of Tychele N. Turner, Ph.D.
+#### Tychele N. Turner, Ph.D.
 #### Washington University in St. Louis
 
 ![DiamondsDenovo](image/2024_tntblt_DiamondsDeNovo_final_1.JPG "DiamondsDenovo")
